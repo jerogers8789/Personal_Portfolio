@@ -24,14 +24,34 @@
                 <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link active" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">About</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
+    <!--Contact form-->
+    <div class="container contact-form">
+      <div class="row" style="margin-top: 50px; margin-left: 20px;">
+        <div class="col-md-8">
+          <h1>Contact</h1>
+          <div class="form-group">
+            <input type="text" name="txtName" class="form-control" placeholder="Name" value=""/>
+          </div>
+          <div class="form-group">
+            <input type="text" name="txtEmail" class="form-control" placeholder="Email" value=""/>
+          </div>
+          <div class="form-group">
+            <textarea name="txtMessage" class="form-control" placeholder="Message" style="width: 100%; height: 100px;"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" name="btnSubmit" class="btnContact" value="Submit"/>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
