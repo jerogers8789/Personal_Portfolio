@@ -6,32 +6,32 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Jeremiah Rogers
+title: Web Developer
+email: je.rogers8789@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 210-550-6968
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://jerogers8789.github.io/Personal_Portfolio/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+#twitter_username: jekyllrb
+github_username:  jerogers8789
+stackoverflow_username: jerogers8789
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: Jeremiah Rogers
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
@@ -50,45 +50,59 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: profile-pic.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am a Web Developer and entrepreneur with a wide range of work experience from agriculture, the military, oil & gas, sales, and construction to now focusing on a career in coding.
+  I grew up in rural South Texas and became a Machine Gunner in the Marine Corps immediately following high school, after 2 deployments overseas I left the military with an honorable discharge and began working in the oilfield and experienced many years of the ups and downs of that industry mixed with attending college and relocating several times across the state for work.
+  When I decided on a career change I began working on construction projects around the San Antonio area while honing my abilities as a developer. During this time I was offered and accepted a postion as the Operations Manager for an exotic vehicle importer in San Antonio and continued in that capcity for aprroximately a year before deciding to focus full time on software development.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: PennyBroker
+        link: https://github.com/josephmartin721/Penny-Broker
+        link_text: PennyBroker
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title:  
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          PennyBroker was a collaborative project between Joseph Martin (josephmartin721) and Hagen Derouen (hagenderouen) and myself to build
+          a web application dedicated to the specifcally to the OTC market. It is still a work in progress with the biggest obstacle being financial constraints of using stock market API's.
+      - layout: left
+        title: Express-Retail
+        link: https://github.com/jerogers8789/Express-Retail
+        link_text: Express-Retail
+        additional_links:
+          - title:  
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Express-Retail is a backend project that utilizes mysql, dotenv, express, and sequelize to build a product database to be utilized by management personnel for retail merchandisers.
+          Application is started by using the 'node server.js' command to begin listening on port 3001. Requests were tested through Postman.
+        description: | # this will include new lines to allow paragraphs
+         
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: 
+        sub_title: Freelance Web Developer
+        caption: Date Range (Aug. 2019 - present)
         link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
