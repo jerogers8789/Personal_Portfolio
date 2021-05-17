@@ -54,7 +54,7 @@ about_profile_image: profile-pic.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I am a Web Developer and entrepreneur with a wide range of work experience from agriculture, the military, oil & gas, sales, and construction to now focusing on a career in coding.
   I grew up in rural South Texas and became a Machine Gunner in the Marine Corps immediately following high school, after 2 deployments overseas I left the military with an honorable discharge and began working in the oilfield and experienced many years of the ups and downs of that industry mixed with attending college and relocating several times across the state for work.
-  When I decided on a career change I began working on construction projects around the San Antonio area while honing my abilities as a developer. During this time I was offered and accepted a postion as the Operations Manager for an exotic vehicle importer in San Antonio and continued in that capcity for aprroximately a year before deciding to focus full time on software development.
+  When I decided on a career change I began working on construction projects around the San Antonio area while honing my abilities as a developer. During this time I was offered and accepted a position as the Operations Manager for an exotic vehicle importer in San Antonio and continued in that capacity for approximately a year before deciding to focus full time on software development.
 
 
 content:
@@ -100,22 +100,23 @@ content:
         title: 
         sub_title: Freelance Web Developer
         caption: Date Range (Aug. 2019 - present)
-        link: Link to company (optional)
+        link: 
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          I have been working off and on as a web developer for a couple of years dealing mainly with small scale business and personal projects to expand my skillset,
+          so that I could work in this field full time.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: University of Texas-San Antonio
+        sub_title: Qualifications-Bachelors of Business Administration
+        caption: Jan. 2019-May 2021. 
         quote: >
-          Short institution or course description (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
